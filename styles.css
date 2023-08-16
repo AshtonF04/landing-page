@@ -182,3 +182,18 @@ a{
 .section-four .sub-text{
     margin-bottom: 0px;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1F2937;
+    padding: 20px;
+    color: white;
+}
+
+.footer p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
