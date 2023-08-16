@@ -1,0 +1,136 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    font-weight: 1000;
+    padding-top: 25px;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 0;
+}
+
+a{
+    padding-right: 10px;
+
+    font-size: 20px;
+}
+
+.section-one{
+    background-color: #1F2937;
+    color:white;
+}
+
+.top-bar{
+    display: flex;
+    align-items: baseline;
+    gap: 25px;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#header-logo{
+    margin-right: auto;
+    padding-left: 10px;
+
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+
+.content-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 50px;
+    padding: 100px;
+    padding-top: 0px;
+}
+
+.content-bar .text-div{
+    flex:1;
+}
+
+.content-bar img{
+    flex:auto;
+    width: 100px;
+    border-radius: 15px;
+}
+
+
+.content-bar button{
+    width: 150px;   
+    height: 40px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+.section-two{
+    color: #1F2937;
+}
+
+.section-two .content-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+}
+
+.section-two .content-container div{
+    flex: 1;
+}
+
+.section-two .content-container div img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.section-three{
+    background-color: #E7E5EB;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.author-text{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.section-four .content-container{
+    display: flex;
+}
