@@ -70,7 +70,7 @@ a{
 .content-bar img{
     flex:auto;
     width: 100px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 
@@ -107,7 +107,7 @@ a{
 .section-two .content-container div img{
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 15px;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -131,6 +131,54 @@ a{
     color: #1F2937
 }
 
+.section-four{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+    color:white
+}
+
 .section-four .content-container{
     display: flex;
+    width:750px;
+    height:100px;
+    padding-left: 60px;
+    align-items: center;
+
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.section-four .content-container .call-to-action{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.section-four .content-container .left-side{
+    flex:1;
+}
+
+.section-four .content-container .right-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-four .content-container button{
+
+    width: 125px;
+    height: 35px;
+    border: solid 2px white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    font-weight: 700;
+}
+
+.section-four .sub-text{
+    margin-bottom: 0px;
 }
